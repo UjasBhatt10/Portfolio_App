@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 50,
+              height: 30,
             ),
             Padding(
               padding: const EdgeInsets.only(left: 30.0),
@@ -48,10 +48,13 @@ class Home extends StatelessWidget {
                         size: 40.0,
                       ),
                       SizedBox(
-                        width: 20.0,
+                        width: 25,
                       ),
                       Text("Collage Name"),
                     ],
+                  ),
+                  SizedBox(
+                    height: 10,
                   ),
                   Row(
                     children: <Widget>[
@@ -60,10 +63,13 @@ class Home extends StatelessWidget {
                         size: 40.0,
                       ),
                       SizedBox(
-                        width: 20.0,
+                        width: 25,
                       ),
                       Text("Project Details"),
                     ],
+                  ),
+                  SizedBox(
+                    height: 10,
                   ),
                   Row(
                     children: <Widget>[
@@ -72,10 +78,13 @@ class Home extends StatelessWidget {
                         size: 40.0,
                       ),
                       SizedBox(
-                        width: 20.0,
+                        width: 25,
                       ),
                       Text("Value"),
                     ],
+                  ),
+                  SizedBox(
+                    height: 10,
                   ),
                   Row(
                     children: <Widget>[
@@ -84,10 +93,13 @@ class Home extends StatelessWidget {
                         size: 40.0,
                       ),
                       SizedBox(
-                        width: 20.0,
+                        width: 25,
                       ),
                       Text("Value"),
                     ],
+                  ),
+                  SizedBox(
+                    height: 10,
                   ),
                   Row(
                     children: <Widget>[
@@ -96,7 +108,7 @@ class Home extends StatelessWidget {
                         size: 40.0,
                       ),
                       SizedBox(
-                        width: 20.0,
+                        width: 25,
                       ),
                       Text("Value"),
                     ],
@@ -104,7 +116,16 @@ class Home extends StatelessWidget {
                 ],
               ),
             ),
-            Text("About Me"),
+            SizedBox(
+              height: 100,
+            ),
+            Text(
+              "About Me",
+              style: TextStyle(fontSize: 22),
+            ),
+            SizedBox(
+              height: 210,
+            ),
             Text("Created By Ujas Bhatt"),
           ],
         ),
