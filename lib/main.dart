@@ -207,19 +207,19 @@ class Home extends StatelessWidget {
                 "Mobile App Development",
                 style: TextStyle(
                   fontFamily: "Code",
-                  fontSize: 19,
+                  fontSize: 17,
                   color: Colors.white,
                 ),
               ),
               Text(
                 "Frontend Development",
                 style: TextStyle(
-                    fontFamily: "Code", fontSize: 19, color: Colors.white),
+                    fontFamily: "Code", fontSize: 17, color: Colors.white),
               ),
               Text(
                 "UI/UX Designer",
                 style: TextStyle(
-                    fontFamily: "Code", fontSize: 19, color: Colors.white),
+                    fontFamily: "Code", fontSize: 17, color: Colors.white),
               ),
               SizedBox(
                 height: 190,
