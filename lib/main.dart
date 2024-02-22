@@ -20,6 +20,7 @@ class Home extends StatelessWidget {
               children: <Widget>[
                 CircleAvatar(
                   radius: 50,
+                  backgroundImage: AssetImage("images/IMG20220912182321.jpg"),
                 ),
                 SizedBox(width: 50.0),
                 Column(
@@ -27,7 +28,8 @@ class Home extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       "Ujas Bhatt",
-                      style: TextStyle(fontSize: 30),
+                      style: TextStyle(
+                          fontSize: 30, fontFamily: "font/Roboto-Medium.ttf"),
                     ),
                     Text("I.T. Engineer", style: TextStyle(fontSize: 18)),
                   ],
